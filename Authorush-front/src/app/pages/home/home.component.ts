@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Car3dComponent } from '../../components/3d-car/3d-car.component';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   standalone: true,
-  imports: [CommonModule, Car3dComponent]
+  imports: [CommonModule]
 })
 export class HomeComponent {
   featuredVehicles = [

@@ -11,12 +11,14 @@ import { CartComponent } from './components/cart/cart.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { UserProfileComponent } from './components/user-profile/user-profile.component';
 import { LandingComponent } from './pages/landing/landing.component';
+import { ServicesComponent } from './pages/services/services.component';
 
 export const routes: Routes = [
   { path: '', component: LandingComponent },
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'services', component: ServicesComponent },
   { path: 'cars', component: CarListComponent },
   { path: 'cars/:id', component: CarDetailComponent },
   { path: 'motorcycles', component: MotorcycleListComponent },
