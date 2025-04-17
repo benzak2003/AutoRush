@@ -1,0 +1,54 @@
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero__content">
+    <h1 class="hero__title">Find Your Dream Ride</h1>
+    <p class="hero__subtitle">Discover the perfect vehicle that matches your style and needs</p>
+    <button class="btn btn-primary hero__cta">Browse Now</button>
+  </div>
+</section>
+
+<!-- Search Section -->
+<section class="search">
+  <div class="container">
+    <div class="search__container">
+      <input type="text" class="search__input" placeholder="Search for your perfect ride...">
+      <button class="btn btn-primary search__button">Search</button>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Vehicles Section -->
+<section class="featured">
+  <div class="container">
+    <h2 class="section-title">Featured Vehicles</h2>
+    <div class="grid grid-3">
+      <div class="vehicle-card" *ngFor="let vehicle of featuredVehicles">
+        <img [src]="vehicle.image" [alt]="vehicle.title" class="vehicle-card__image">
+        <div class="vehicle-card__content">
+          <h3 class="vehicle-card__title">{{ vehicle.title }}</h3>
+          <p class="vehicle-card__price">{{ vehicle.price }}</p>
+          <button class="btn btn-primary vehicle-card__button">Quick View</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials">
+  <div class="container">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <div class="testimonials__carousel">
+      <div class="testimonial-card" *ngFor="let testimonial of testimonials">
+        <p class="testimonial-card__text">{{ testimonial.text }}</p>
+        <div class="testimonial-card__author">
+          <img [src]="testimonial.image" [alt]="testimonial.author" class="testimonial-card__image">
+          <div class="testimonial-card__info">
+            <h4>{{ testimonial.author }}</h4>
+            <p>{{ testimonial.role }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
