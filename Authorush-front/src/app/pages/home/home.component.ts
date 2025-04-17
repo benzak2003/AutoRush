@@ -14,21 +14,21 @@ export class HomeComponent {
     {
       id: 1,
       image: 'https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      title: 'Porsche 911 GT3',
+      title: 'Golf GTI',
       price: '$165,000',
       type: 'car'
     },
     {
       id: 2,
       image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      title: 'Lamborghini Huracan',
+      title: 'BMW M4',
       price: '$250,000',
       type: 'car'
     },
     {
       id: 3,
       image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-      title: 'Ferrari 488 GTB',
+      title: ' Mercedes amg gt',
       price: '$280,000',
       type: 'car'
     }
